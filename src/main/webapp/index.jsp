@@ -19,20 +19,29 @@
     <!-- my styles -->
 	<link href="/resources/css/styles.css" rel="stylesheet">    
   </head>
-  <body>	
-  	
-  	<div class="container">
-  		<nav class="navbar navbar-default" role="navigation">
-	  		<ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Blog</a></li>
-		        <li><a href="#">Profile</a></li>
-		        <li><a href="#">Skills</a></li>
-		        <li><a href="#">Experience</a></li>
-		        <li><a href="#">Education</a></li>
-		        <li><a href="#">Contact</a></li>
-	      	</ul>
-	    </nav>
-	 </div>
+  <body>	  	
+  	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">  		
+  		<div class="navbar-inner">
+  			<div class="container">
+  				<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+  					<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+  				</button>
+  				<a class="navbar-brand" href="#">Vikram's Corner</a>
+  				<div id="main-nav" class="collapse navbar-collapse">
+  					<ul class="nav navbar-nav">
+				        <li class="active"><a href="#">Blog</a></li>
+				        <li><a href="#">Profile</a></li>
+				        <li><a href="#">Skills</a></li>
+				        <li><a href="#">Education</a></li>
+				        <li><a href="#">Contact</a></li>
+			      	</ul>
+  				</div>  				
+  			</div>	  			    
+	 	</div>
+	 </nav>
 	 <div class="container">
   		<div class="jumbotron">
 			<div class="page-header">
@@ -43,9 +52,22 @@
 			This is some glob of textThis is some glob of text
 			This is some glob of textThis is some glob of text</p>
 			
+			<p>This is some glob of textThis is some glob of text
+			This is some glob of textThis is some glob of text
+			This is some glob of textThis is some glob of text</p>
+			
+			<p>This is some glob of textThis is some glob of text
+			This is some glob of textThis is some glob of text
+			This is some glob of textThis is some glob of text</p>
+			
 			<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>  		
   		</div>  	
   	</div>
+  	<footer>
+  		<p>
+  		This was developed using Spring MVC 3.2.x and BootStrap 3
+  		</p>
+  	</footer>
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

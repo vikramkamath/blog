@@ -1,3 +1,16 @@
-html, body{
-	background-color: teal;
+html, body {
+    background-color: #008080;
+}
+.page-header {
+    border-bottom: 1px solid #008080;
+}
+footer {
+    background-color: #EEE;
+    height: 60px;
+    border-top: 1px solid #CECECE;
+}
+footer p {
+    text-align: center;
+    font-size: 0.875em;
+    padding-top: 0.8em;
 }
